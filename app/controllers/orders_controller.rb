@@ -2,7 +2,7 @@ class OrdersController < ApplicationController
   before_action :set_order, only: [:show, :update, :destroy]
 
   def index
-    @orders = Order.all
+    @orders = Order.order(:pickup_time)
 
     render json: @orders
   end
@@ -36,7 +36,7 @@ class OrdersController < ApplicationController
   private
 
   def set_order
-    @order = Order.find(params[:id]).order(:pickup_time)
+    @order = Order.find(params[:id])
   end
 
   def order_params
