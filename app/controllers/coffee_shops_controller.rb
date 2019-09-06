@@ -1,5 +1,5 @@
 class CoffeeShopsController < ApplicationController
-  before_action :set_coffee_shop, only: [:show, :update, :destroy]
+  before_action :set_coffee_shop, only: [:show, :destroy]
 
   def index
     @coffee_shops = CoffeeShop.all

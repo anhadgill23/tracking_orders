@@ -1,5 +1,5 @@
 class BaristaController < ApplicationController
-  before_action :set_barista, only: [:show, :update, :destroy]
+  before_action :set_barista, only: [:show, :destroy]
 
   def index
     @barista = Barista.all
