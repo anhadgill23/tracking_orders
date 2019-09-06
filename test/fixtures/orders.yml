@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  item: MyString
+  customer: one
+  pickup_time: 
+  coffee_shop: one
+
+two:
+  item: MyString
+  customer: two
+  pickup_time: 
+  coffee_shop: two

@@ -1,24 +1,14 @@
-# README
+# Order Tracking
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple order tracking application for baristas. It's objectives are:
 
-Things you may want to cover:
+1. Baristas can register their coffee shop
+2. Customers can submit their name, order type and time of arrival to a specific coffee shop
+3. Baristas can see the orders organized by pickup time for their coffee shop
 
-* Ruby version
+This application is built to run in a docker container, so that the build is portable.
 
-* System dependencies
+## Setup
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Run `docker-compose build` to set up the application in a docker container.
+2. Run `docker-compose run web rails console` to open the console to test it.
