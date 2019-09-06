@@ -11,4 +11,4 @@ This application is built to run in a docker container, so that the build is por
 ## Setup
 
 1. Run `docker-compose build` to set up the application in a docker container.
-2. Run `docker-compose run web rails console` to open the console to test it.
+2. Run `docker-compose run web rails console` to open the console to test it or simply `docker-compose run web` to run the server.
